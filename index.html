@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proactive RH</title>
+    <style>
+        body {
+            background-image: url(fondo.jpeg);
+            background-size: cover;
+            background-position: center;
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .container {
+            text-align: center;
+        }
+
+        .logo {
+            max-width: 300px;
+            margin-bottom: 10px;
+            margin-top: 40px ;
+        }
+
+        .btn-container {
+            display: flex;
+            justify-content: center; /* Centra horizontalmente los botones */
+            margin-top: 20px; /* Espacio superior entre los botones y el título */
+        }
+
+        .btn {
+            width: 500px; /* Ancho del botón */
+            height: 600px; /* Altura del botón */
+            padding: 20px;
+            font-size: 40px;
+            text-transform: uppercase;
+            background-color: rgba(0, 255, 191, 0.6); /* Color del botón con alfa (transparencia) */
+            color: #050505;
+            text-decoration: none;
+            border-radius: 10px;
+            display: flex; /* Usar flexbox para centrar verticalmente */
+            justify-content: center;
+            align-items: center;
+            margin: 0 10px; /* Margen entre los botones */
+            transition: transform 0.3s, background-color 0.3s; /* Transición suave para transformar y cambiar el color de fondo */
+        }
+
+        h2 {
+            margin-top: 5px;
+            margin-bottom: 70px;
+        }
+
+        .btn:hover {
+            transform: scale(1.1); /* Aumenta el tamaño del botón al pasar el ratón sobre él */
+            background-color: rgba(0, 255, 191, 1); /* Cambia el color del fondo sin transparencia al pasar el ratón sobre él */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img class="logo" src="logo.png" alt="Logo">
+
+        <h2>Selecciona lo que estás buscando</h2>
+
+        <div class="btn-container">
+            <a href="url-de-agencia" class="btn">EMPRESAS</a>
+            <a href="url-de-empresas" class="btn">PERSONAL DOMÉSTICO</a>
+        </div>
+    </div>
+</body>
+</html>
